@@ -12,14 +12,8 @@ const Form = () => {
 
     const SubmitHandler = (e) => {
         e.preventDefault();
-        
+        console.log(value)
     };
-
-    const inputHandler = (e) => {
-        const {name, value} = e.target;
-        setValue((prev) => ({...prev, [name] : value}))
-    }
-    console.log(value)
     return(
         <form onSubmit={SubmitHandler}>
             <input 
