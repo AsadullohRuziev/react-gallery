@@ -7,7 +7,7 @@ export const useForm = (initialState) => {
       (e)=> {
           setValue({
               ...value,
-              [e.target.name] : e.target.value,
+              [e.target.name] : e.target.value
           });
       }
   ]
