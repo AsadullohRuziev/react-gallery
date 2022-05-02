@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
 
+const initialState = 'GoGoGo'
 function App() {
+  const [state, setState] = useState(initialState);
+  const changeName = () => {
+    setState("Ismoil")
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+          {/* <h1>Salom {state ? "rost" : "yolgon"}</h1> */}
+          <h1>Salom {state}</h1>
+          <button onClick={changeName}>O'zgartirish</button>
+    </>
   );
 }
 
