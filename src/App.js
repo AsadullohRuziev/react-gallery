@@ -1,15 +1,11 @@
-import { useState } from 'react';
+import logo from './logo.svg';
 import './App.css';
-import Contact from './components/Contact';
-import Form from './components/Form'
 
 function App() {
-
   return (
-    <>
-    <Form/>
-    <Contact/>
-    </>
+    <div className="App">
+      
+    </div>
   );
 }
 
