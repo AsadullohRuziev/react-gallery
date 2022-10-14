@@ -6,7 +6,7 @@ I deploy this Gallery on [Netlify](https://chimerical-cendol-b65002.netlify.app/
 ![Gallery Desktop](https://user-images.githubusercontent.com/89915857/164554768-0c553069-068e-4b3b-b6be-3c383a76d0cf.png)
 
 # 📍 Instalation steps ⚙
-    clon this repo with this command: git clone https://github.com/Banana021s/Gallery-Template.git
+    clon this repo with this command: git clone https://github.com/AsadullohRuziev/react-gallery.git
     go to the directory and enter: npm i
     when all packages are completely installed enter: npm start
 # Mansonry Layout
